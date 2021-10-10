@@ -68,16 +68,19 @@ h2 {
 
     position: relative;
 }
-#cover-text, #cover-text h2{
+
+#cover-text,
+#cover-text h2 {
     color: #fff;
-         
+
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
 
-/* animates zoom effect on loading page */
+    /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -100,7 +103,7 @@ h2 {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
 
     width: 300px;
     height: 200px;
@@ -169,7 +172,7 @@ hr {
 }
 
 #welcome {
-    text-align:center;
+    text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
@@ -200,3 +203,20 @@ hr {
     background-position: center;
     width:100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;  
+}
