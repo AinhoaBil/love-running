@@ -201,7 +201,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -218,7 +218,7 @@ hr {
 }
 
 #times h2 {
-    color: #fafafa;  
+    color: #fafafa;
 }
 
 /* footer */
@@ -232,7 +232,7 @@ footer {
 
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -246,13 +246,13 @@ footer {
 /* gallery */
 
 #photos {
-    clear:both;
+    clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -269,7 +269,6 @@ footer {
     #welcome {
         padding: 30px 0;
         margin: 0;
-
     }
 
     #left-about, #right-about {
@@ -284,9 +283,10 @@ footer {
         float: left;
         padding: 0;
     }
-     hr {
-         display: none;
-     }
+
+    hr {
+        display: none;
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -299,6 +299,28 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
-    
 
+    #cover-text {
+        left: 0;
+    }
+    
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading   {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
